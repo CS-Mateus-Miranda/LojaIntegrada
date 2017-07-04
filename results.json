@@ -13,7 +13,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 2918762
+              "duration": 2808819
             },
             "line": 5,
             "match": {
@@ -25,8 +25,9 @@
             "keyword": "Quando ",
             "name": "digito meu e-mail no campo do Newsletter",
             "result": {
-              "status": "passed",
-              "duration": 4334408066
+              "status": "failed",
+              "duration": 5003013845,
+              "error_message": "function timed out after 5000 milliseconds"
             },
             "line": 8,
             "match": {
@@ -38,8 +39,7 @@
             "keyword": "Então ",
             "name": "recebo a mensagem \"Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.\"",
             "result": {
-              "status": "passed",
-              "duration": 3033145
+              "status": "skipped"
             },
             "line": 9,
             "match": {
@@ -62,7 +62,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 2704378
+              "duration": 796418
             },
             "line": 5,
             "match": {
@@ -74,9 +74,8 @@
             "keyword": "Quando ",
             "name": "digito um e-mail já cadastrado no Newsletter",
             "result": {
-              "status": "failed",
-              "duration": 97573381,
-              "error_message": "AssertionError: expected '' to include 'Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.'"
+              "status": "passed",
+              "duration": 1452012029
             },
             "line": 12,
             "match": {
@@ -88,7 +87,8 @@
             "keyword": "Então ",
             "name": "recebo a mensagem \"Seu e-mail já consta em nossa newsletter.\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3080793
             },
             "line": 13,
             "match": {
@@ -111,7 +111,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 1559924
+              "duration": 749091
             },
             "line": 5,
             "match": {
@@ -124,8 +124,8 @@
             "name": "digito um e-mail no formato inválido",
             "result": {
               "status": "failed",
-              "duration": 15872312,
-              "error_message": "ReferenceError: callback is not defined\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:38:45)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at Immediate._tickCallback (internal/process/next_tick.js:104:9)\n    at runCallback (timers.js:672:20)\n    at tryOnImmediate (timers.js:645:5)"
+              "duration": 4474669,
+              "error_message": "ReferenceError: callback is not defined\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:38:45)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)"
             },
             "line": 16,
             "match": {
@@ -160,7 +160,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 1504080
+              "duration": 1288654
             },
             "line": 5,
             "match": {
@@ -172,8 +172,9 @@
             "keyword": "Quando ",
             "name": "clico no botão de cadastro de Newsletter",
             "result": {
-              "status": "passed",
-              "duration": 1933578095
+              "status": "failed",
+              "duration": 69989701,
+              "error_message": "AssertionError: expected '' to include 'Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.'"
             },
             "line": 20,
             "match": {
@@ -185,8 +186,7 @@
             "keyword": "Então ",
             "name": "não consigo realizar o cadastro",
             "result": {
-              "status": "passed",
-              "duration": 441537
+              "status": "skipped"
             },
             "line": 21,
             "match": {
