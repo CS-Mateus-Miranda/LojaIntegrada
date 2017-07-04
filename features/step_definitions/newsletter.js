@@ -34,17 +34,16 @@ module.exports = function() {
      expect(resposta.emailjacadastrado()).to.eventually.contain('Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.');
    });
 
-   this.When(/^digito um e\-mail no formato inválido$/, function(){
+   this.When(/^digito um e\-mail no formato inválido$/, function(callback){
      newsletter.cadastraremail('cdbh').then(callback);
    });
 
-   this.Then(/^não consigo realizar o cadastro$/, {timeout: 70 * 1000}, function(callback) {
+   this.Then(/^não consigo realizar o cadastro$/, {timeout: 7 * 1000}, function() {
      var trueorfalse = resultado.emailformatoinvalido();
      expect(trueorfalse).to.be.true;
-     callback(null);
-   });
+      });
 
-   this.When(/^clico no botão de cadastro de Newsletter$/, function (callback) {
-      newsletter.clicarnobotao().then(callback);
+   this.When(/^clico no botão de cadastro de Newsletter$/, function () {
+      newsletter.clicarnobotao();
     });
 };
