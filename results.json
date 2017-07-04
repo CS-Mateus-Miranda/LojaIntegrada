@@ -1,0 +1,208 @@
+[
+  {
+    "elements": [
+      {
+        "id": "newsletter;cadastrar-novo-e-mail-para-envio-de-newsletter",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cadastrar novo e-mail para envio de Newsletter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na home do site",
+            "result": {
+              "status": "passed",
+              "duration": 2918762
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "digito meu e-mail no campo do Newsletter",
+            "result": {
+              "status": "passed",
+              "duration": 4334408066
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "recebo a mensagem \"Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.\"",
+            "result": {
+              "status": "passed",
+              "duration": 3033145
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:23"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "newsletter;cadastrar-um-e-mail-já-cadastrado",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Cadastrar um e-mail já cadastrado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na home do site",
+            "result": {
+              "status": "passed",
+              "duration": 2704378
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "digito um e-mail já cadastrado no Newsletter",
+            "result": {
+              "status": "failed",
+              "duration": 97573381,
+              "error_message": "AssertionError: expected '' to include 'Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.'"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "recebo a mensagem \"Seu e-mail já consta em nossa newsletter.\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:23"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "newsletter;cadastrar-um-e-mail-inválido",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Cadastrar um e-mail inválido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na home do site",
+            "result": {
+              "status": "passed",
+              "duration": 1559924
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "digito um e-mail no formato inválido",
+            "result": {
+              "status": "failed",
+              "duration": 15872312,
+              "error_message": "ReferenceError: callback is not defined\n    at World.<anonymous> (/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:38:45)\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at Immediate._tickCallback (internal/process/next_tick.js:104:9)\n    at runCallback (timers.js:672:20)\n    at tryOnImmediate (timers.js:645:5)"
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "não consigo realizar o cadastro",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:41"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "newsletter;clicar-no-botão-de-cadastro-sem-preencher-o-e-mail",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Clicar no botão de cadastro sem preencher o e-mail",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que estou na home do site",
+            "result": {
+              "status": "passed",
+              "duration": 1504080
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "clico no botão de cadastro de Newsletter",
+            "result": {
+              "status": "passed",
+              "duration": 1933578095
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "não consigo realizar o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 441537
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:41"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "newsletter",
+    "keyword": "Funcionalidade",
+    "line": 2,
+    "name": "Newsletter",
+    "tags": [],
+    "uri": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/newsletter.feature"
+  }
+]
