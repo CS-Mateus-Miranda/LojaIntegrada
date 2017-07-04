@@ -31,7 +31,7 @@ module.exports = function() {
 
    this.Then('Recebo a mensagem de erro', {timeout: 70 * 1000}, function(callback) {
      var resposta = resultado.emailjacadastrado();
-     expect(resposta.emailjacadastrado()).to.eventually.contain('Seu e-mail já consta em nossa newsletter.').and.notify(callback);
+     expect(resposta.emailjacadastrado()).to.eventually.contain('Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.');
    });
 
    this.When(/^digito um e\-mail no formato inválido$/, function(){

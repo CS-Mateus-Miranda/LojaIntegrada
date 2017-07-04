@@ -30,12 +30,14 @@ class Resultado{
 
   // Verifica se a mensagem de sucesso no cadastro está presente na tela
   cadastrocomsucesso(){
-    var retorno = element(by.css('.alert-geral'));
-    if (retorno.isDisplayed() == true){
-      return true;
+    element(by.css('.alert-geral')).isPresent().then(function (isVisible) {
+    if (isVisible) {
+        return true;
     } else {
-      return false;
+        // element is not visible
+        return false;
     }
+});
   }
 }
 
