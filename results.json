@@ -13,7 +13,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 2684954
+              "duration": 2951049
             },
             "line": 5,
             "match": {
@@ -26,7 +26,7 @@
             "name": "digito meu e-mail no campo do Newsletter",
             "result": {
               "status": "passed",
-              "duration": 4702871487
+              "duration": 4782257571
             },
             "line": 8,
             "match": {
@@ -39,7 +39,7 @@
             "name": "recebo a mensagem \"Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.\"",
             "result": {
               "status": "passed",
-              "duration": 3362766
+              "duration": 4428638
             },
             "line": 9,
             "match": {
@@ -62,7 +62,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 1306600
+              "duration": 1178909
             },
             "line": 5,
             "match": {
@@ -75,12 +75,12 @@
             "name": "digito um e-mail já cadastrado no Newsletter",
             "result": {
               "status": "failed",
-              "duration": 65444535,
+              "duration": 66817897,
               "error_message": "AssertionError: expected '' to include 'Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.'"
             },
             "line": 12,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:28"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:29"
             }
           },
           {
@@ -111,7 +111,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 1516001
+              "duration": 1806874
             },
             "line": 5,
             "match": {
@@ -124,11 +124,11 @@
             "name": "digito um e-mail no formato inválido",
             "result": {
               "status": "passed",
-              "duration": 1064194667
+              "duration": 956200025
             },
             "line": 16,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:37"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:38"
             }
           },
           {
@@ -137,11 +137,11 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 518029
+              "duration": 604913
             },
             "line": 17,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:41"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:42"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "name": "que estou na home do site",
             "result": {
               "status": "passed",
-              "duration": 1863827
+              "duration": 1067482
             },
             "line": 5,
             "match": {
@@ -173,11 +173,11 @@
             "name": "clico no botão de cadastro de Newsletter",
             "result": {
               "status": "passed",
-              "duration": 977781
+              "duration": 1005390
             },
             "line": 20,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:46"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:47"
             }
           },
           {
@@ -186,11 +186,11 @@
             "name": "não consigo realizar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 271789
+              "duration": 181267
             },
             "line": 21,
             "match": {
-              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:41"
+              "location": "/Users/mateusmiranda/Desktop/Projetos/Loja/features/step_definitions/newsletter.js:42"
             }
           }
         ],
