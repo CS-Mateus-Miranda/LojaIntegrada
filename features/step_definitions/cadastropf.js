@@ -14,9 +14,11 @@ module.exports = function(){
     cadastro.visit();
    });
 
+   this.When(/^preencho todos os campos da tela com dados válidos$/, {timeout: 100 * 1000}, function(callback){
+     cadastro.cadastrocompleto().then(callback);
+   });
 
+   this.Then(/^recebo a mensagem "([^"]*)"$/, {timeout: 100 * 1000}, function() {
 
-   this.When(/^preencho todos os campos da tela com dados válidos$/, function(){
-     this.sucesso = cadastro.cadastrocompleto();
    });
 }
