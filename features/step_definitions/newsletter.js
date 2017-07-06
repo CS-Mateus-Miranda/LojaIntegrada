@@ -23,7 +23,7 @@ module.exports = function() {
   this.Then(/^recebo a mensagem "([^"]*)"$/,  {timeout: 100 * 1000}, function(callback) {
      expect(resultado.mensagem.getText()).to.eventually.contain('Obrigado por se inscrever! Aguarde novidades da nossa loja em breve.')
       .and.notify(callback);
-      
+
    });
 
    this.When(/^digito um e\-mail já cadastrado no Newsletter$/, function(callback){
