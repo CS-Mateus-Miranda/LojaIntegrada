@@ -19,6 +19,9 @@ class CadastroPF{
     this.inputdtnasc = element(by.id('id_data_nascimento')).sendKeys('16061996');
     this.inputcep = element(by.id('id_cep')).sendKeys('30642050');
     //wait
+    var EC = protractor.ExpectedConditions;
+    adsdasd
+
 
     this.inputnumero = element(by.id('id_numero')).sendKeys('111');
     this.inputcomplemento = element(by.id('id_complemento')).sendKeys('Complemento');
