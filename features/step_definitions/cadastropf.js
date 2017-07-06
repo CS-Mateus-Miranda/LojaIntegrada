@@ -5,6 +5,7 @@ let expect = chai.expect;
 
 let fs = require('fs');
 
+
 const Cadastro = require('../page_objects/cadastropf.po.js');
 
 module.exports = function(){
