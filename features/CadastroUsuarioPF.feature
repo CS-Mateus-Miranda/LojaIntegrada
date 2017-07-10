@@ -18,7 +18,7 @@ Cenário: Autopreencher campos de logradouro pelo CEP
 
 Cenário: Informar um CEP inválido
   Quando preencho o campo CEP com um valor inválido
-  Então recebo a mensagem "CEP não encontrado."
+  Então recebo a tela de CEP não encontrado
 
 Cenário: Não preencher os campos obrigatórios
   Quando não preencho os campos obrigatórios
